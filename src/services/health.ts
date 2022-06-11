@@ -23,7 +23,7 @@ export class HealthService {
                 res.push({
                     title: value.find('a').text().replace(/\t/g,'').replace(/\n/g,''),
                     date: value.find('span:nth-of-type(1)').text().substring(3).trim(),
-                    url: `https://www.g-health.kr/portal/bbs/selectBoardArticle.do?bbsId=U00186&nttId=${value.find('a').attr('href')?.split("'U00186','")[1].split("','")[0]}&menuNo=200461&lang=&searchCndSj=1&searchCndCt=1&searchWrd=&pageIndex=1&vType=A`
+                    url: `https://www.g-health.kr/mobile/bbs/selectBoardArticle.do?bbsId=U00186&nttId=${value.find('a').attr('href')?.split("'U00186','")[1].split("','")[0]}&lang=&searchCndSj=&searchCndCt=&searchWrd=&pageIndex=1&vType=A`
                 });
             });
             return {
