@@ -1,4 +1,11 @@
 # 2022-flutter-sojeon-backend
+
+## 빌드 방법
+```shell
+npm install -D
+npm run build
+npm run start
+```
  
 ## 데이터 가져온 사이트
 [공공 보건 포털 건강 뉴스](https://www.g-health.kr/mobile/bbs/selectBoardList.do?bbsId=U00186&vType=A)
